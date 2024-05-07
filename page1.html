@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>People Search</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>People Search</h1>
+        <nav>
+            <ul>
+                <li><a href="people-search.html">People Search</a></li>
+                <li><a href="vehicle-search.html">Vehicle Search</a></li>
+                <li><a href="add-vehicle.html">Add a Vehicle</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <form id="people-search-form">
+                <label for="name">Driver Name:</label>
+                <input type="text" id="name" name="name">
+                <label for="license">License Number:</label>
+                <input type="text" id="license" name="license">
+                <button type="submit">Submit</button>
+            </form>
+            <div id="results">
+                <!-- Search results will be displayed here -->
+            </div>
+            <div id="message">
+                <!-- Messages for successful search or errors will be displayed here -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Website</p>
+    </footer>
+    <script src="script.js" defer></script>
+</body>
+</html>v
